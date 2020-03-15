@@ -1,0 +1,7 @@
+.custom-border-right
+{
+    border-right: 0px;
+    @media (min-width: 992px) {
+        border-right: 2px solid $light;
+    }
+}

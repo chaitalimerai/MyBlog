@@ -1,0 +1,10 @@
+
+/*--------Custom CSS--------*/
+@import './../../assets/scss/base/index';
+@import "./../../assets/scss/components/index";
+@import "./../../assets/scss/layout/index";
+@import "./../../assets/scss/utilities/index";
+
+/*--------Bootstrap CSS--------*/
+@import "../scss/vendor/bootstrap-base";
+@import "../scss/vendor/bootstrap-components";

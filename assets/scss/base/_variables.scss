@@ -1,0 +1,47 @@
+// Font-family
+$font-family-base:              'Quicksand', sans-serif;
+$font-family-secondary:         'Playfair Display', serif;
+
+// Font-size
+$font-size-base:                1rem;
+$font-size-sm:                  $font-size-base * 0.9;
+
+// Font-weight
+$font-weight-normal:            700;
+$font-weight-bold:              700;
+
+// Border Radius
+$border-radius:                 0;
+$border-radius-lg:             .4rem;
+
+// Buttons
+$body-color:                    $white;
+
+//card
+$card-bg:                       $secondary;
+$card-border-width:             0;
+
+//h4(display-4)
+$display4-weight:               $font-weight-bold;
+
+//Navbar
+$navbar-brand-width:            300px;
+//Nav-Link
+$link-color:                    $white;
+$link-hover-color:              $light;
+$nav-pills-link-active-color:   $light;
+$nav-pills-border-radius:       0;
+
+//Dropdown
+$dropdown-link-color:           $primary;
+$dropdown-link-hover-color:     $white;
+$dropdown-link-hover-bg:        lighten($secondary, 10%);
+// $dropdown-box-shadow:           0 .5rem 1rem rgba(red, .175) !important;
+
+//Buttons
+$btn-border-radius:             0;
+$btn-font-weight:               $font-weight-bold;
+$btn-font-size:                 $font-size-sm;
+
+//Product Image
+$product-img-width:             100%;

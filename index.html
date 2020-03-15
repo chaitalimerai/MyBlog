@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chaitali Merai</title>
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="./assets/css/styles.min.css">
+
+  <!-- Google Fonts Stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Quicksand:400,500,600&display=swap"
+    rel="stylesheet">
+
+  <!-- Font-Awesome Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Owl Stylesheets -->
+  <!-- <link rel="stylesheet" href="./assets/scss/vendor/css/owl-carousel-custom.css"> -->
+  <link rel="stylesheet" href="./assets/scss/vendor/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/scss/vendor/css/owl.theme.default.min.css">
+
+  <link rel="shortcut icon" type="image/png" href="./assets/images/logo.png">
+</head>
+
+<body>
+  <!-- Main-Wrapper -->
+  <div class="d-flex flex-column bg-primary overflow-hidden h-100 w-100">
+    <div class="container">
+      <!-- header -->
+      <nav class="top-nav navbar navbar-dark bg-primary navbar-fixed-top navbar-expand-lg py-1 px-0">
+        <!-- Nav-brand -->
+        <div class=" d-flex justify-content-center">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/images/logo.png" class="img-fluid rounded-circle mr-2" alt="Logo">
+            <span>Chaitali Merai</span>
+          </a>
+        </div>
+        <!-- Ends: Nav-brand -->
+        <button class="navbar-toggler border border-light" type="button" data-toggle="collapse"
+          data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="fa fa-bars text-light"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+          <ul class="nav align-items-center align-items-lg-start flex-column flex-lg-row">
+            <li class="nav-item"><a href="index.html" class="nav-link nav-link-tabs navtabactive">home</a></li>
+            <li class="nav-item"><a href="#aboutPage" class="nav-link nav-link-tabs">about</a></li>
+            <li class="nav-item"><a href="#projectsPage" class="nav-link nav-link-tabs">projects</a></li>
+            <li class="nav-item"><a href="#contactPage" class="nav-link nav-link-tabs">contact</a></li>
+          </ul>
+          <ul class="nav d-none nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                aria-controls="pills-home" aria-selected="true">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab"
+                aria-controls="pills-about" aria-selected="false">about</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="works-link position-relative nav-link d-flex flex-column align-items-center text-uppercase dropdown-toggle"
+                data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">skills</a>
+              <div class="dropdown-menu">
+                <div class="dropdown-item">HTML <span class="font-weight-bold">|</span> HTML5</div>
+                <div class="dropdown-item">CSS | CSS3</div>
+                <div class="dropdown-item">Bootstrap | Bootstrap 4</div>
+                <div class="dropdown-item">SCSS</div>
+                <div class="dropdown-divider"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-clients-tab" data-toggle="pill" href="#pills-clients" role="tab"
+                aria-controls="pills-clients" aria-selected="false">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                aria-controls="pills-contact" aria-selected="false">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Ends: header -->
+    </div>
+    <!-- content-wrapper -->
+    <div class="container-fluid overflow-auto h-100 w-100 px-0">
+      <!-- Details-block -->
+      <div class="d-flex flex-column bg-secondary product-area">
+        <div class="container">
+          <section class="row no-gutters">
+            <div class="col-12 col-md-6 col-md-6 d-flex flex-column justify-content-center">
+              <h2 class="d-block text-light py-2">Hello, I'm</h2>
+              <h4 class="display-4 d-block title text-break mb-0">Chaitali</h4>
+              <h4 class="display-4 d-block title">Merai</h4>
+              <h2 class="d-block text-light py-2">Web Designer</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 carousel-height" src="./assets/images/skills/html5.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 carousel-height" src="./assets/images/skills/css3.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 carousel-height" src="./assets/images/skills/bootstrap.jpeg"
+                      alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 carousel-height" src="./assets/images/skills/scss.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- Ends: Details-block -->
+
+      <!-- about-area -->
+      <div class="d-flex flex-column my-5" id="aboutPage">
+        <section class="container">
+          <div class="row no-gutters mb-5">
+            <h2 class="d-flex flex-grow-1 title border-bottom border-white pb-2">About</h2>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mb-4 mb-md-0">
+              <img src="./assets/images/responsive.png" class="img-fluid w-100" alt="About Profile">
+            </div>
+            <div class="col-12 col-lg-6 pl-0 pl-md-5">
+              <h6 class="text-light text-uppercase font-weight-bold">about me</h6>
+              <h1 class="title py-3">Why hire me for your next project?</h1>
+              <p class="text pb-3">Meet my startup design agency
+                <a href="#" class="text-light">My Portfolio</a>
+                Currently I was working at <a href="http://www.jellynuttechnology.com/" target="_blank"
+                  class="text-light">Jellynut Technology</a> as
+                User Interface Designer.
+                Before that took internship at <a href="https://www.1rivet.com/" target="_blank"
+                  class="text-light"><span class="text-danger">1</span><span class="text-light">Rivet</span></a>,
+                Valsad as a Web Designer and also worked on SCSS pre-processor.
+                <br><br>I love to work in User Interface
+                designing. Because I love to solve the design problem and find easy and
+                better solutions to solve it. I always try my best to make good user
+                interface with the best user experience. I have been working as a Visual
+                designer from 3 years.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Ends: about-area -->
+
+      <!-- info-tab-area -->
+      <div class="d-flex flex-column">
+        <div class="container">
+          <section class="row no-gutters info-tab-area">
+            <ul class="nav flex-column flex-md-row nav-pills w-100" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-skills-tab" data-toggle="pill" href="#pills-skills" role="tab"
+                  aria-controls="pills-skills" aria-selected="false">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab"
+                  aria-controls="pills-projects" aria-selected="false">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-my-services-tab" data-toggle="pill" href="#pills-my-services" role="tab"
+                  aria-controls="pills-my-services" aria-selected="false">my servises</a>
+              </li>
+            </ul>
+            <!-- tab-pane -->
+            <div class="tab-content w-100" id="pills-tabContent">
+              <div class="tab-pane bg-secondary text-white fade show active p-3 p-md-5" id="pills-skills"
+                role="tabpanel" aria-labelledby="pills-skills-tab">
+                <div class="row no-gutters">
+                  <div class="col-12 col-md-6 mb-5">
+                    <div class="card">
+                      <div class="row no-gutters">
+                        <div class="col-12 col-xl-4 mb-4 mb-xl-0">
+                          <img src="./assets/images/html5.jpg" class="rounded-lg img-fluid" alt="Business Strategy">
+                        </div>
+                        <div class="col-12 col-xl-8 pl-0 pl-xl-4">
+                          <div class="card-body p-0">
+                            <h4 class="title mb-0">HTML 5</h4>
+                            <p class="text py-3 mb-0">
+                              HTML5 is the fifth and current major version of HTML, and subsumes XHTML. The current
+                              standard, the HTML Living Standard is developed by WHATWG, which is made up of the major
+                              browser vendors (Apple, Google, Mozilla, and Microsoft), with the Living Standard also
+                              existing in an abridged version.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 pl-0 pl-md-4 mb-5">
+                    <div class="card">
+                      <div class="row no-gutters">
+                        <div class="col-12 col-xl-4 mb-4 mb-xl-0">
+                          <img src="./assets/images/css3.jpg" class="rounded-lg img-fluid" alt="Business Strategy">
+                        </div>
+                        <div class="col-12 col-xl-8 pl-0 pl-xl-5">
+                          <div class="card-body p-0">
+                            <h4 class="title mb-0">CSS3</h4>
+                            <p class="text py-3 mb-0">
+                              Cascading Style Sheets (CSS) is a style sheet language used for describing the
+                              presentation of a document written in a markup language like HTML. CSS is a cornerstone
+                              technology of the World Wide Web, alongside HTML and JavaScript.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 mb-5 mb-md-0">
+                    <div class="card">
+                      <div class="row no-gutters">
+                        <div class="col-12 col-xl-4 mb-4 mb-xl-0">
+                          <img src="./assets/images/bootstrap.jpg" class="rounded-lg img-fluid" alt="Business Strategy">
+                        </div>
+                        <div class="col-12 col-xl-8 pl-0 pl-xl-4">
+                          <div class="card-body p-0">
+                            <h4 class="title mb-0">Bootstrap 4</h4>
+                            <p class="text py-3 mb-0">
+                              Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first
+                              front-end web development. It contains CSS- and (optionally) JavaScript-based design
+                              templates for typography, forms, buttons, navigation and other interface components.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 pl-0 pl-md-4">
+                    <div class="card">
+                      <div class="row no-gutters">
+                        <div class="col-12 col-xl-4 mb-4 mb-xl-0">
+                          <img src="./assets/images/scss.jpg" class="rounded-lg img-fluid" alt="Business Strategy">
+                        </div>
+                        <div class="col-12 col-xl-8 pl-0 pl-xl-5">
+                          <div class="card-body p-0">
+                            <h4 class="title mb-0">SCSS</h4>
+                            <p class="text py-3 mb-0">
+                              Stylesheet development with Scss, even when using its most basic features, like nesting
+                              properties or variables, saves valuable time and makes life easier for front-end
+                              developers. This means that every valid CSS3 stylesheet is valid SCSS as
+                              well. SCSS files use the extension .scss.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane bg-secondary text-white fade p-3 p-md-5" id="pills-projects" role="tabpanel"
+                aria-labelledby="pills-projects-tab">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay mb-md-0 position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/lifestyle.png" class="img-fluid rounded-lg w-100"
+                          alt="Lifestyle">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Lifestyle (Website)</h5>
+                        <h6 class="text-light">HTML5, CSS3, SCSS, Jquery</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/jellynut-tech.png" class="img-fluid rounded-lg w-100"
+                          alt="Jellynut Technology">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Jellynut Technology Website</h5>
+                        <h6 class="text-light">HTML, CSS, Bootstrap, JS, Jquery</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/bordash-dashboard.png" class="img-fluid rounded-lg w-100"
+                          alt="Boardash Dashboard">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Bordash Dashboard</h5>
+                        <h6 class="text-light">HTML5, CSS3, Bootstrap 4, SCSS</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/lector-Dashboard.png" class="img-fluid rounded-lg w-100"
+                          alt="Lector Dashboard">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Lector Dashboard</h5>
+                        <h6 class="text-light">HTML5, CSS3, Bootstrap 4</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/victory-dashboard.png" class="img-fluid rounded-lg w-100"
+                          alt="Victory Dashboard">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Victory Dashboard</h5>
+                        <h6 class="text-light">HTML5, CSS3, Bootstrap 4</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay mb-md-0 position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/virtual-health.png" class="img-fluid rounded-lg w-100"
+                          alt="Virtual Health">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Virtual Health</h5>
+                        <h6 class="text-light">HTML5, CSS3</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/patch-dashboard.png" class="img-fluid rounded-lg w-100"
+                          alt="Patch Dashboard">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Patch Dashboard</h5>
+                        <h6 class="text-light">HTML5, CSS3, SCSS</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay mb-md-0 position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/recruit-dashboard.png" class="img-fluid rounded-lg w-100"
+                          alt="Recruit Dashboard">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Recruit Dashboard</h5>
+                        <h6 class="text-light">HTML5, CSS3, Bootstrap 4, SCSS</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="exhibition-overlay mb-md-0 position-relative">
+                      <div class="exhibition-img">
+                        <img src="./assets/images/projects/javascript-jquery-dashboard.png"
+                          class="img-fluid rounded-lg w-100" alt="Javascript Jquery Dashboard">
+                      </div>
+                      <div class="exhibition-content position-absolute px-3">
+                        <h5 class="title">Javascript Jquery Dashboard</h5>
+                        <h6 class="text-light">HTML5, CSS3, SCSS, Javascript, Jquery</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane bg-secondary text-white fade p-3 p-md-5" id="pills-my-services" role="tabpanel"
+                aria-labelledby="pills-my-services-tab">
+                <div class="row no-gutters">
+                  <div class="col-12 col-md-6 pr-3 mb-5">
+                    <div class="service-icon">
+                      <img src="./assets/images/service-2.png" class="img-fluid" alt="Brand Strategy">
+                    </div>
+                    <div>
+                      <h4 class="title text-capitalize py-3 mb-0">Brand Strategy</h4>
+                      <p class="mb-0">
+                        A brand strategy is the blueprint for how you build and grow your brand. It encapsulates and
+                        articulates who you are, why you exist, what you do, and how you communicate. It’s the
+                        foundation of your business.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 mb-5">
+                    <div class="service-icon">
+                      <img src="assets/images/service-3.png" alt="Visual Design">
+                    </div>
+                    <h4 class="title text-capitalize py-3 mb-0">Visual Design</h4>
+                    <p class="mb-0">
+                      Visual design aims to shape and improve the user experience through considering the effects of
+                      illustrations, photography, typography, space, layouts, and color on the usability of products.
+                    </p>
+                  </div>
+                  <div class="col-12 col-md-6 pr-3 mb-5 mb-md-0">
+                    <div class="service-icon">
+                      <img src="assets/images/service-4.png" alt="Product Design">
+                    </div>
+                    <h4 class="title text-capitalize py-3 mb-0">Product Design</h4>
+                    <p class="mb-0">
+                      Product design as a verb is to create a new product to be sold by a business to its customers.
+                      A very broad coefficient and effective generation and development of ideas through a process that
+                      leads to new products.
+                    </p>
+                  </div>
+                  <div class="col-12 col-md-6 pr-3 mb-5 mb-md-0">
+                    <div class="service-icon">
+                      <img src="assets/images/service-5.png" alt="Interactive Design">
+                    </div>
+                    <h4 class="title text-capitalize py-3 mb-0">Interactive Design</h4>
+                    <p class="mb-0">
+                      Interactive design is a user-oriented field of study that focuses on meaningful communication of
+                      media through cyclical and collaborative processes between people and technology. Successful
+                      interactive designs have simple, clearly defined goals, a strong purpose and intuitive screen
+                      interface.[
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Ends: tab-pane -->
+          </section>
+        </div>
+      </div>
+      <!-- Ends: info-tab-area -->
+
+      <!-- project-area -->
+      <div class="d-flex flex-column my-5" id="projectsPage">
+        <section class="container">
+          <div class="row no-gutters">
+            <h2 class="d-flex flex-grow-1 title border-bottom border-white pb-2 mb-0">projects</h2>
+            <div class="nonloop owl-carousel owl-theme">
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <!-- <img src="./assets/images/dashboard_admin3.png" class="card-img-top" alt="Admin Dashboard"> -->
+                <a href="https://chaitalimerai.github.io/LifeStyle/" target="_blank">
+                  <img src="./assets/images/projects/lifestyle.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Lifestyle">
+                </a>
+                <div class="card-body h-100 bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">Lifestyle Website</small>
+                  <h5 class="title py-3 mb-0">Shopping Website</h5>
+                  <p class="text-white mb-0 pb-0">
+                    A Website is developed for Online Shopping. Customers can filter products and see the full details
+                    of products.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/Growth/" target="_blank">
+                  <img src="./assets/images/projects/growth.png" class="img-fluid card-img-top rounded-lg" alt="Growth">
+                </a>
+                <div class="card-body h-100 bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">Lifestyle Website</small>
+                  <h5 class="title py-3 mb-0">Shopping Website</h5>
+                  <p class="text-white mb-0 pb-0">
+                    A Website is developed for Online Shopping. Customers can filter products and see the full details
+                    of products.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="http://www.jellynuttechnology.com/" target="_blank">
+                  <img src="./assets/images/projects/jellynut-tech.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Jellynut Technology">
+                </a>
+                <div class="card-body  h-100 bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">jellynut technology website</small>
+                  <h5 class="title py-3 mb-0">Company Website</h5>
+                  <p class="text-white mb-0">
+                    My Current Company website where company is working on Web Design, Web Development, Game
+                    Development.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/Boardash-Dashboard/" target="_blank">
+                  <img src="./assets/images/projects/bordash-dashboard.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Bordash Dashboard">
+                </a>
+                <div class="card-body bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">bordash dashboard, admin panel</small>
+                  <h5 class="title py-3 mb-0">Project Meeting Admin Panel</h5>
+                  <p class="text-white mb-0">
+                    Admin Panel is developed for Meeting Management System where you can see the perticular member
+                    meetings details.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/Lector-Dashboard/" target="_blank">
+                  <img src="./assets/images/projects/lector-Dashboard.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Lector Dashboard">
+                </a>
+                <div class="card-body bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">lector dashboard, admin panel</small>
+                  <h5 class="title py-3 mb-0">Monthly Earning Admin Panel</h5>
+                  <p class="text-white mb-0">
+                    Dashboard is demonstrate about monthly earning data where you can see customer data, maps,
+                    activities etc.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/Victory-Dashboard/" target="_blank">
+                  <img src="./assets/images/projects/victory-dashboard.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Victory Dashboard">
+                </a>
+                <div class="card-body bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">victory dashboard</small>
+                  <h5 class="title py-3 mb-0">Statstics Details Admin Panel</h5>
+                  <p class="text-white mb-0">
+                    Dashboard shows the statstics details like, daily tasks, rating, growth, revenue, status data, etc.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/VirtualHealth-Dashboard/" target="_blank">
+                  <img src="./assets/images/projects/virtual-health.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Virtual Health">
+                </a>
+                <div class="card-body bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">virtual health</small>
+                  <h5 class="title py-3 mb-0">Hospital Management</h5>
+                  <p class="text-white mb-0">
+                    Admin panel is developed for Hospital Management System where you can filter recodrs and see the
+                    details of patients.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/Patch-Dashboard/" target="_blank">
+                  <img src="./assets/images/projects/patch-dashboard.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Patch Dashboard">
+                </a>
+                <div class="card-body bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">Patch Dashboard</small>
+                  <h5 class="title py-3 mb-0">Deposite Management System</h5>
+                  <p class="text-white mb-0">
+                    Dashboard is developed for Deposite Management System where you can see the history of account
+                    details.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/Recruit-Dashboard/" target="_blank">
+                  <img src="./assets/images/projects/recruit-dashboard.png" class="img-fluid card-img-top rounded-lg"
+                    alt="Recruit Dashboard">
+                </a>
+                <div class="card-body bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">recruitment dashboard, admin panel</small>
+                  <h5 class="title py-3 mb-0">Recruit Management System</h5>
+                  <p class="text-white mb-0">
+                    Admin panel demonstrate Recruit Management System where you can see the hiring details.
+                  </p>
+                </div>
+              </div>
+              <div class="card h-100 mt-5 mb-0 mb-md-5">
+                <a href="https://chaitalimerai.github.io/JS-Jquery-Dashboard/" target="_blank">
+                  <img src="./assets/images/projects/javascript-jquery-dashboard.png"
+                    class="img-fluid card-img-top rounded-lg" alt="JS/jquery Dashboard">
+                </a>
+                <div class="card-body bg-secondary border-bottom border-light p-4">
+                  <small class="text-light text-uppercase mb-0">Using Js/Jquery Template</small>
+                  <h5 class="title py-3 mb-0">HTML Block Template</h5>
+                  <p class="text-white mb-0">
+                    Dashborad demonstrate the data about add html tags block. This is for practice project to improve
+                    JS/Jquery.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Ends: project-area -->
+
+      <!-- contact-area -->
+      <div class="d-flex flex-column my-5" id="contactPage">
+        <section class="container">
+          <div class="row no-gutters mb-5">
+            <h2 class="d-flex flex-grow-1 title border-bottom border-white pb-2">Contact</h2>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29889.27614595755!2d73.1900458205566!3d20.54065312981493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0b951c327cef7%3A0x5f8ddb52fba09f33!2sDharampur%2C+Gujarat%2C+India!5e0!3m2!1sen!2s!4v1409226803521"
+                  width="100%" height="300" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+              <h3 class="text-light">Address</h3>
+              <address>
+                Darji Street, near market,<br>
+                Dharampur - 396050,<br>
+                Dist - Valsad<br>
+              </address>
+              <div class="d-flex flex-wrap align-items-baseline">
+                <h6 class="text-light mr-2">Contact No: </h6>
+                <span>+91 9586939758</span>
+              </div>
+              <div class="d-flex flex-wrap align-items-baseline">
+                <h6 class="text-light mr-2">Email: </h6>
+                <span>chaitalimerai143@gmail.com</span>
+              </div>
+              <div class="d-flex flex-wrap align-items-baseline">
+                <h6 class="text-light mr-2">Linkedin: </h6>
+                <span>https://www.linkedin.com/in/chaitali-merai-1b8b4a198/</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Ends: contact-area -->
+
+      <!-- footer -->
+      <footer class="d-flex flex-column py-3 bg-secondary">
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <span>Copyright © 2019 <a href="index.html">Chaitali Merai</a></span>
+            <!-- <div
+              class="bottom-circle-arrow d-flex align-items-center justify-content-center bg-primary text-white rounded-circle bottom-circle-arrow"
+              onclick="topFunction();">
+              <span class="fa fa-angle-double-up fa-lg text-white"></span>
+            </div> -->
+          </div>
+        </div>
+      </footer>
+      <!-- Ends: footer -->
+    </div>
+    <!-- Ends: content-wrapper -->
+  </div>
+  <!-- Ends: Main-Wrapper -->
+
+  <!-- javascript -->
+  <script src="./assets/scss/vendor/js/jquery.min.js"></script>
+  <script src="./assets/scss/vendor/js/owl.carousel.js"></script>
+  <script src="./assets/scss/vendor/bootstrap/js/popper.min.js"></script>
+  <script src="./assets/scss/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

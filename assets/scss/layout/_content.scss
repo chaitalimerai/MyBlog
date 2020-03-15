@@ -1,0 +1,132 @@
+.title {
+  color: $white;
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-bold;
+  text-transform: capitalize;
+}
+
+// .text {
+//   font-family: $font-family-base;
+// }
+
+.product-area {
+  .product-img-width {
+    @media (max-width: 576px) {
+      width: $product-img-width;
+    }
+  }
+}
+
+.info-tab-area {
+  .nav-item {
+    flex-grow: 1;
+    border-right: 1px solid $secondary;
+    &:last-child {
+      border-right: 1px solid transparent;
+    }
+    @media (max-width: 576px) {
+      border-right: 1px solid transparent;
+    }
+    .active {
+      color: $dark !important;
+      background-color: lighten($light, 5%) !important;
+    }
+  }
+  .nav-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    padding: 15px 0;
+
+    &:hover {
+      color: $dark;
+      background-color: lighten($light, 5%) !important;
+    }
+  }
+
+  .exhibition-overlay {
+    margin-bottom: 30px;
+    &:hover {
+      .exhibition-img {
+        &::before {
+          opacity: 1;
+        }
+      }
+      .exhibition-content {
+        opacity: 1;
+      }
+    }
+    .exhibition-img {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 11;
+        border-radius: 5px;
+        background-image: linear-gradient(0deg, black 0%, rgba(255, 255, 255, 0) 100%);
+        transition: 0.3s;
+        opacity: 0;
+      }
+    }
+    .exhibition-content {
+      opacity: 0;
+      position: absolute;
+      transition: 0.3s;
+      z-index: 22;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.testimonial-bg {
+  background-color: lighten($primary, 2%);
+}
+
+.single-client {
+  background: #e9e9eb;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  height: 256px;
+  line-height: 256px;
+}
+
+.social-media {
+  .social-icon {
+    color: $primary;
+  }
+  .social-title {
+    color: $light;
+    font-weight: $font-weight-bold;
+  }
+  .card {
+    &:hover,
+    &.active,
+    &:active {
+      background-color: $light;
+      .title,
+      .social-title {
+        color: $primary;
+      }
+      .social-icon {
+        color: #b98c51;
+      }
+    }
+  }
+}
+
+.carousel-height {
+  height: 400px;
+}
+
+.bottom-circle-arrow {
+  height: 30px;
+  width: 30px;
+  padding: 25px;
+  cursor: pointer;
+}

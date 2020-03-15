@@ -1,0 +1,36 @@
+// Global styles goes here
+html,body {
+  height: 100%;
+  overflow: hidden;
+  background-color: $light;
+  font-size: $font-size-base;
+  font-family: $font-family-base;
+  font-weight:$font-weight-normal;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a,
+label {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cursor-pointer
+{
+  cursor: pointer;
+}
